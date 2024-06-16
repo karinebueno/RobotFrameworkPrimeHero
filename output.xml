@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20240613 15:16:23.676" rpa="false" schemaversion="3">
+<suite id="s1" name="minhaSuiteDeTestes" source="c:\Workspace\RobotFrameworkPrimeHero\minhaSuiteDeTestes.robot">
+<test id="s1-t1" name="Executar Todos os Testes Menos o Segundo" line="6">
+<kw name="Run Keywords" library="BuiltIn">
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="PASS" starttime="20240613 15:16:23.747" endtime="20240613 15:16:23.748"/>
+</kw>
+<kw name="Teste Exercicio Dicionário">
+<tag>ExercicioDicionario</tag>
+<doc>Executar Exercício Dicionário</doc>
+<kw name="Get File" library="OperatingSystem">
+<arg>C:\\Workspace\\RobotFrameworkPrimeHero\\ExercicioDicionario.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<msg timestamp="20240613 15:16:23.751" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\RobotFrameworkPrimeHero\ExercicioDicionario.robot"&gt;C:\Workspace\RobotFrameworkPrimeHero\ExercicioDicionario.robot&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20240613 15:16:23.750" endtime="20240613 15:16:23.757"/>
+</kw>
+<status status="PASS" starttime="20240613 15:16:23.749" endtime="20240613 15:16:23.758"/>
+</kw>
+<kw name="Teste Exercicio For Simples Lista">
+<tag>ExercicioForSimplesLista</tag>
+<doc>Executar Exercício For Simples Lista</doc>
+<kw name="Get File" library="OperatingSystem">
+<arg>C:\\Workspace\\RobotFrameworkPrimeHero\\ExercicioForSimplesLista.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<msg timestamp="20240613 15:16:23.760" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\RobotFrameworkPrimeHero\ExercicioForSimplesLista.robot"&gt;C:\Workspace\RobotFrameworkPrimeHero\ExercicioForSimplesLista.robot&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20240613 15:16:23.760" endtime="20240613 15:16:23.762"/>
+</kw>
+<status status="PASS" starttime="20240613 15:16:23.759" endtime="20240613 15:16:23.762"/>
+</kw>
+<kw name="Teste Exercicio For in Range">
+<tag>ExercicioForInRange</tag>
+<doc>Executar Exercício For in Range</doc>
+<kw name="Get File" library="OperatingSystem">
+<arg>C:\\Workspace\\RobotFrameworkPrimeHero\\ExercicioForInRange.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<msg timestamp="20240613 15:16:23.767" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\RobotFrameworkPrimeHero\ExercicioForInRange.robot"&gt;C:\Workspace\RobotFrameworkPrimeHero\ExercicioForInRange.robot&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20240613 15:16:23.766" endtime="20240613 15:16:23.768"/>
+</kw>
+<status status="PASS" starttime="20240613 15:16:23.764" endtime="20240613 15:16:23.769"/>
+</kw>
+<kw name="Teste Exercicio Credenciais de Acesso">
+<tag>ExercicioCredenciaisDeAcesso</tag>
+<doc>Executar Exercício Credenciais de Acesso</doc>
+<kw name="Get File" library="OperatingSystem">
+<arg>C:\\Workspace\\RobotFrameworkPrimeHero\\ExercicioCredenciaisDeAcesso.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<msg timestamp="20240613 15:16:23.773" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\RobotFrameworkPrimeHero\ExercicioCredenciaisDeAcesso.robot"&gt;C:\Workspace\RobotFrameworkPrimeHero\ExercicioCredenciaisDeAcesso.robot&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20240613 15:16:23.772" endtime="20240613 15:16:23.775"/>
+</kw>
+<status status="PASS" starttime="20240613 15:16:23.772" endtime="20240613 15:16:23.775"/>
+</kw>
+<kw name="Teardown da Suíte de Teste" type="TEARDOWN">
+<kw name="Log" library="BuiltIn">
+<arg>Finalizando a suíte de testes...</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240613 15:16:23.778" level="INFO">Finalizando a suíte de testes...</msg>
+<status status="PASS" starttime="20240613 15:16:23.778" endtime="20240613 15:16:23.779"/>
+</kw>
+<status status="PASS" starttime="20240613 15:16:23.776" endtime="20240613 15:16:23.779"/>
+</kw>
+<status status="PASS" starttime="20240613 15:16:23.746" endtime="20240613 15:16:23.780"/>
+</test>
+<doc>Minha Suíte de Teste</doc>
+<status status="PASS" starttime="20240613 15:16:23.683" endtime="20240613 15:16:23.784"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="minhaSuiteDeTestes">minhaSuiteDeTestes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
